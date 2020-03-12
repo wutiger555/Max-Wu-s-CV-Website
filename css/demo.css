@@ -293,7 +293,7 @@
     opacity: 0;
     visibility: hidden;
     color: #FFFFFF;
-    font-size: 80px;
+    font-size: 55px;
     line-height: 110px;
     font-weight: 900;
     font-kerning: none;
@@ -308,7 +308,7 @@
   }
   @media screen and (max-width: 992px) {
     body section.slideshow .detail .detail-item .headline .letter {
-      font-size: 20px;
+      font-size: 25px;
       line-height: 126px;
     }
   }
