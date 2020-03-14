@@ -6804,36 +6804,23 @@ Custom CSS
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); }
 
 /* Typist */
-@keyframes blink {
-  0% {
-    opacity: 1.0; }
-  50% {
-    opacity: 0.0; }
-  100% {
-    opacity: 1.0; } }
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1.0; }
-  50% {
-    opacity: 0.0; }
-  100% {
-    opacity: 1.0; } }
-
-.typist .selectedText {
-  display: none; }
-
-.typist:after {
+.terminal {
+  background-color: #020202;
+  width: 70%;
+  font-size: 26px;
+  color: #00fd55;
+  letter-spacing: 2px;
   position: relative;
-  top: 7px;
+  top: 50%;
   display: inline-block;
-  height: 30px;
+  height: 20%;
   margin-left: 5px;
-  content: " ";
-  -webkit-animation: blink .5s step-end infinite alternate;
-  animation: blink .5s step-end infinite alternate;
-  border-right: 2px solid; }
+}
 
+.terminal::before {
+  content: ">";
+  margin-right: 10px;
+}
 /* Skills */
 .skill {
   margin-top: 1.5rem; }

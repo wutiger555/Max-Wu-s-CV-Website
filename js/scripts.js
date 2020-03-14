@@ -1,29 +1,3 @@
-$(function () {
-
-    // init typist
-    new Typist(document.querySelector(".typist"), {
-        letterInterval: 60,
-        textInterval: 1000
-    });
-
-    // init feather icons
-    feather.replace();
-
-    //scrollspy init
-    $('body').scrollspy({target: '#beleme-navbar'});
-
-    // init tooltip & popovers
-    $('[data-toggle="tooltip"]').tooltip();
-    $('[data-toggle="popover"]').popover();
-
-    //page scroll
-    $('a.page-scroll').bind('click', function (event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000);
-        event.preventDefault();
-    });
 
     //toggle scroll menu
     $(window).scroll(function () {

@@ -46,22 +46,7 @@ Custom CSS
   100% { opacity: 1.0; }
 }
 
-.typist {
-    .selectedText {
-        display: none;
-    }
-    &:after {
-        position: relative;
-        top: 7px;
-        display: inline-block;
-        height: 30px;
-        margin-left: 5px;
-        content: " ";
-        -webkit-animation: blink .5s step-end infinite alternate;
-        animation: blink .5s step-end infinite alternate;
-        border-right: 2px solid;
-    }
-}
+
 
 /* Skills */
 .skill {
